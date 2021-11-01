@@ -5,7 +5,7 @@ In this assignment, you are given datasets of human face and digit images. You w
   <img width="853" height="500" src="http://mmlab.ie.cuhk.edu.hk/projects/CelebA/intro.png">
 </p>
 
-For more details, please click [this link](https://drive.google.com/drive/folders/1H__FunUK3O-x-6ZDgCmhhXREVKA9deK8?usp=sharing) to view the slides of HW2. **Note that all of hw3 videos and introduction pdf files can be accessed in your NTU COOL.**
+For more details, please click [this link](https://drive.google.com/drive/folders/1H__FunUK3O-x-6ZDgCmhhXREVKA9deK8?usp=sharing) to view the slides of HW2. **Note that all of hw2 videos and introduction pdf files can be accessed in your NTU COOL.**
 
 # Usage
 To start working on this assignment, you should clone this repository into your local machine by using the following command.
@@ -73,17 +73,17 @@ We will run your code in the following manner:
     bash ./hw2_p3.sh $2 $3 $4
     bash ./hw2_bonus.sh $2 $3 $4
 
--   `$1` is the path to your output generated images (Problem 1-4 and 2-2) (e.g. hw2/VAE/fig1_4.png or hw2/GAN/fig2_2.png ).
+-   `$1` is the path to your output generated images (e.g. `hw2/GAN/output_images`).
 -   `$2` is the directory of testing images in the **target** domain (e.g. `hw2_data/digits/mnistm/test`).
 -   `$3` is a string that indicates the name of the target domain, which will be either `mnistm`, `usps` or `svhn`. 
-	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `mnistm`, you should make your prediction using your "USPS→MNIST-M" model, **NOT** your "MNIST-M→SVHN" model.
+	- Note that you should run the model whose *target* domain corresponds with `$3`. For example, when `$3` is `mnistm`, you should make your prediction using your "SVHN→MNIST-M" model, **NOT** your "MNIST-M→SVHN" model.
 -   `$4` is the path to your output prediction file (e.g. `hw2_data/digits/mnistm/test_pred.csv`).
 
 > 🆕 ***NOTE***  
 > For the sake of conformity, please use the `python3` command to call your `.py` files in all your shell scripts. Do not use `python` or other aliases, otherwise your commands may fail in our autograding scripts.
 
 ### Packages
-This homework should be done using python3.6. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
+This homework should be done using python 3.8. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
 
 You can run the following command to install all the packages listed in the requirements.txt:
 
