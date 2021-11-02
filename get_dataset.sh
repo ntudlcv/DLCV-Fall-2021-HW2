@@ -1,5 +1,5 @@
 # Download dataset from Dropbox
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KYKMajoyan6Dk5rZjAHqSOGRDCbHKMCj' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KYKMajoyan6Dk5rZjAHqSOGRDCbHKMCj" -O hw2_data.zip && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1BwZiFfGKAqIOFRupt6xO7-KuhPYd5VMO' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1BwZiFfGKAqIOFRupt6xO7-KuhPYd5VMO" -O hw2_data.zip && rm -rf /tmp/cookies.txt
 
 # Unzip the downloaded zip file
 unzip ./hw2_data.zip
