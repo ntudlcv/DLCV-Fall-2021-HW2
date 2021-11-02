@@ -17,7 +17,7 @@ Note that you should replace `<username>` with your own GitHub username.
 In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
 
     bash ./get_dataset.sh
-The shell script will automatically download the dataset and store the data in a folder called `hw2_data`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link](https://drive.google.com/file/d/1KYKMajoyan6Dk5rZjAHqSOGRDCbHKMCj/view) and unzip the compressed file manually.
+The shell script will automatically download the dataset and store the data in a folder called `hw2_data`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link](https://drive.google.com/file/d/1BwZiFfGKAqIOFRupt6xO7-KuhPYd5VMO/view?usp=sharing) and unzip the compressed file manually.
 
 > ⚠️ ***IMPORTANT NOTE*** ⚠️  
 > You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `hw2_data` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
