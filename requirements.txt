@@ -1,5 +1,5 @@
 certifi==2021.10.8
-cudatookit==11.3.1
+cudatoolkit==11.3.1
 cycler==0.10.0
 imageio==2.9.0
 joblib==0.17.0
